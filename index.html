@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .a {
+            background-color: green;
+            border: none;
+            height: 40px;
+            width: 60px;
+            border-radius: 3px;
+            margin-right: 15px;
+            color: white;
+            font-size: large;
+        }
+
+        .b {
+            background-color: red;
+            border: none;
+            height: 40px;
+            width: 60px;
+            border-radius: 3px;
+            color: white;
+            font-size: large;
+        }
+
+        .a:hover {
+            background-color: darkgreen;
+        }
+
+        .b:hover {
+            background-color: darkred;
+        }
+    </style>
+</head>
+<body>
+    <div style="text-align: center;">
+        <img style="height: 200px; margin-top: 200px;" src="image/tenor.gif">
+        <h2 style="font-size: 2rem; line-height: 2.5rem; font-family: ui-sans-serif, system-ui, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;">
+            Will you be my Valentine?
+        </h2>
+    </div>
+    <div style="text-align: center;">
+        <button class="a">
+            <a style="color: white;text-decoration: none;" href="yes.html">Yes</a>
+        </button>
+        <button class="b" onclick="increaseSize()">No</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
